@@ -22,6 +22,8 @@ puts "Checking for the directory: #{lambda}..."
 puts '--------------------------------'
 
 if File.directory?(lambda)
+  # Removing the previous archive file...
+  File.delete('archive.zip') if File.exist?('archive.zip')
   puts 'Zipping the directory to archive.zip...'
   zf = ZipFileGenerator.new(lambda, 'archive.zip')
   zf.write()
