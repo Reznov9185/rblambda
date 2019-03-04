@@ -6,7 +6,7 @@
 
 Clone `git clone git@github.com:Reznov9185/ruby-build-aws-lambda.git`
 
-On terminal: `ruby build`
+On terminal: `ruby build.rb`
 
 ##### Known issues:
 TODO: 
