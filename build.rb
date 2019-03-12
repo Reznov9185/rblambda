@@ -1,4 +1,4 @@
-require_relative 'directory_zipper'
+require_relative 'helpers/directory_zipper'
 
 # TODO: Please refactor this, there is a shit ton of failing points!
 def upload_to_aws(lambda)
