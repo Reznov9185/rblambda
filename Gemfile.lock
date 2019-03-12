@@ -2,18 +2,12 @@ GEM
   remote: https://rubygems.org/
   specs:
     rubyzip (1.2.2)
-    zip-zip (0.3)
-      rubyzip (>= 1.0.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   rubyzip (>= 1.0.0)
-  zip-zip
-
-RUBY VERSION
-   ruby 2.5.1p57
 
 BUNDLED WITH
-   1.16.2
+   2.0.1
